@@ -289,6 +289,8 @@ body {
   margin-top: 50px;
 }
 .projects-caption {
+  border: 1px solid var(--border-color);
+  border-top: 0;
   padding: 20px 24px;
 }
 .projects-name {
@@ -321,8 +323,6 @@ body {
 .projects-list-item {
   padding: 0;
   margin: 0;
-  border: 1px solid var(--border-color);
-  border-top: 0;
 }
 .projects-pic {
   vertical-align: middle;
